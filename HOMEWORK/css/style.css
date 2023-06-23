@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-image: linear-gradient(to right,black 0 50%,#57B8FF 50%);
+}
+
+.menu {
+  max-width: 1536px;
+  display: flex;
+  align-items: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  justify-content: space-around;
+}
+
+.menu-btns a {
+ text-decoration: none;
+ color: white;
+}
+
+.menu-btns a:hover {
+  color: #FAC422;
+}
+
+.menu-btns {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+.menu-button button {
+  width: 178px;
+  height: 62px;
+  background: none;
+  border-color: white;
+  color: white;
+  margin-left: 10px;
+}
+
+.menu-button button:hover {
+  background-color: #FAC422;
+}
+
+.home {
+  max-width: 1536px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 80px;
+}
+
+.home-text {
+  width: 660px;
+  height: 528px;
+  
+}
+
+.home-text p {
+  max-width: 450px;
+  color:#999;;
+}
+
+.home-text h1 {
+  color: white;
+  font-size: 72px;
+  margin-top: 24px;
+  margin-bottom: 44px;
+}
+
+.home-text div {
+width: 446px;
+display: flex;
+justify-content: space-between;
+}
+
+.home-text button {
+  width: 203px; 
+  height: 70px;
+  background: none;
+  border: none;
+  color: white;
+  margin-top: 50px;
+}
+
+.home-text button:hover{
+  background-color: #57B8FF;
+}
+
+.team {
+  max-width: 1536px;
+  background-image: url(../images/team-back.png);
+  background-position:100% 100%;
+}
+
+.team-text {
+  max-width: 716px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+
+.team-text p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #999;
+
+}
+
+.team-text h2 {
+  font-size: 62px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.team-buttons div {
+ display: flex;
+ 
+}
+
+.team-buttons button {
+  width:  642.458px;
+   background:  rgba(255, 255, 255, 0.15);
+   border-radius: 15px;
+   border: none;
+   margin: 10px;
+}
+
+.team-buttons p {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.team-buttons h3 {
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
+@media (max-width:1100px) {
+  .home{
+    display: block;
+  }
+  
+  .home-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+  .home-text {
+    width: 500px;
+    text-align: center;
+  }
+
+  .home-img {
+   text-align: center;
+   margin-top: 90px;
+  }
+  
+
+}
+
+
+@media(max-width:650px) {
+  .menu {
+    display: block;
+  }
+  
+  .menu-btns {
+    display: block;
+  }
+
+  .menu-btns a {
+    margin: 10px;
+  }
+
+  .home-text div {
+    display: block;
+  }
+
+  .home {
+    padding-bottom: 160px;
+  }
+
+  .home-text h1 {
+    font-size: 50px;
+  }
+
+  .home-img img {
+    width:418px;
+    height: 300px;
+  }
+  
+
+
+  
+  
+}
